@@ -2,10 +2,11 @@ body {
 	background-color: black;
 }
 .main {
+	/*display: inline;*/
 	background-color: white;
 	margin-top: 110px;
-	padding-left: 100px;
-	min-width: 1200px;
+	/*padding-left: 100px;*/
+	width: 1349px;
 	height: 500px;
 	position: relative;
 	z-index: 1;
@@ -44,9 +45,8 @@ body {
 	z-index: 10;
 }
 .hulk-ryu {
-	display: inline;
 	float: right;
-	filter: hue-rotate(90deg);
+	-webkit-filter: hue-rotate(90deg);
 	width: 659px;
 	height: 494px;
 	-moz-transform: scaleX(-1);

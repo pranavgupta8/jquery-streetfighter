@@ -2,10 +2,8 @@ body {
 	background-color: black;
 }
 .main {
-	/*display: inline;*/
 	background-color: white;
 	margin-top: 110px;
-	/*padding-left: 100px;*/
 	width: 1349px;
 	height: 500px;
 	position: relative;
@@ -36,7 +34,7 @@ body {
 .ryu-cool {
 	background-image: url('../images/ryu-cool.gif');
 }
-}
+
 .hadouken {
 	background-image: url('../images/hadouken.gif');
 	width: 156px;
@@ -48,6 +46,7 @@ body {
 	float: left;
 	z-index: 10;
 }
+
 .hulk-ryu {
 	float: right;
 	-webkit-filter: hue-rotate(90deg);
@@ -71,8 +70,6 @@ body {
 	z-index: 10;
 	float: right;
 	-webkit-filter: hue-rotate(90deg);
-	width: 659px;
-	height: 494px;
 	-moz-transform: scaleX(-1);
 	-o-transform: scaleX(-1);
 	-webkit-transform: scaleX(-1);
